@@ -62,7 +62,7 @@ def _handle_rules_upload(upload_key: str):
         st.session_state["rules_upload_key"] = st.session_state.get("rules_upload_key", 0) + 1
 
 def main():
-    st.title("IFC Recolor")
+    st.title("IFC Recolour")
 
     # IFC upload
     up = st.file_uploader("Upload IFC", type=["ifc"], key="ifc_upload")
